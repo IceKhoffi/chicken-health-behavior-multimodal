@@ -1,0 +1,14 @@
+ultralytics
+motrackers
+numpy
+matplotlib
+opencv-python
+pillow
+pyyaml
+requests
+scipy
+torch
+torchvision
+tqdm
+pandas
+psutil
