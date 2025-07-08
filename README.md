@@ -1,2 +1,2 @@
-# chicken-health-behavior-multimodal
+# Chicken Health Behavior Multimodal
 Multimodal AI project for early chicken health and behavior detection using computer vision and vocalization analysis.
