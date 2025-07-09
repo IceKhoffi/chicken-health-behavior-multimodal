@@ -64,7 +64,7 @@ def load_model(model_path):
 
 
 # Predict function
-def vocaliaztion_prediction(audio_path, model):
+def vocaliaztion_prediction(audio_path, model, device):
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     wav, X = audio_to_log_mel_spec(audio_path)
     X_tensor = torch.tensor(X, dtype=torch.float32).unsqueeze(0).unsqueeze(0)
