@@ -49,5 +49,39 @@ All data and model weights are publicly available on Hugging Face:
 
 ## Getting Started
 
+## Results
+*(This section showcases key outputs and demonstrations from our models. For detailed code, full examples, and more analysis, please refer to the respective Jupyter notebooks in the `notebooks/` directory.)*
+
+### Chicken Object Detection
+*This output is from `notebooks/CHBD_TF_YOLOv11s_Distance_Estimation.ipynb`*
+
+![Distance Estimation](https://github.com/user-attachments/assets/c489f2e9-8cdb-49ed-aa67-9c4e60da03a8)
+
+*This output is from `notebooks/CHBD_TF_YOLOv11s_Density_Estimation.ipynb`*
+
+![Density Estimation](https://github.com/user-attachments/assets/14357de7-fe37-41f6-85d8-3c844d32a66a)
+
+### Chicken Vocalization Classification
+*This output is from `notebooks/CHBD_Vocalization_Analysis.ipynb` of the performance metrics*
+
+![Vocalization Classification Report and Confussion Matrix](https://github.com/user-attachments/assets/4c34ade6-ad39-4e68-8958-3d5ed47d8151)
+
+*This output is from `notebooks/CHBD_Vocalization_Analysis.ipynb` of the test data prediction*
+
+![Output of test data](https://github.com/user-attachments/assets/79a848b9-6186-4024-8810-6dff93eb4a4f)
+
+
+
+
+## Acknowledgements
+
+* **Kipster Farm:** We extend our gratitude to Kipster Farm for making their informative videos publicly available on YouTube, which served as a crucial source for our visual dataset.
+* **Poultry Vocalization Signal Dataset:** We gratefully acknowledge the creators of the "Poultry Vocalization Signal Dataset for Early Disease Detection" for their valuable contribution to the audio component of this project.
+    * Aworinde, Halleluyah; Adebayo, Segun; Akinwunmi, Akinwale; Alabi, Olufemi; Ayandiji, Adebamiji; Oke, Olaide; Oyebamiji, Abel; Adeyemo, Adetoye; Sakpere, Aderonke; Echetama, Kizito (2023), “Poultry Vocalization Signal Dataset for Early Disease Detection”, Mendeley Data, V1, doi: [10.17632/zp4nf2dxbh.1](https://data.mendeley.com/datasets/zp4nf2dxbh/1)
+* **Ultralytics YOLO:** This project extensively uses the Ultralytics YOLO framework.
+
+
+
+
 
 
