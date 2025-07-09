@@ -52,14 +52,14 @@ All data and model weights are publicly available on Hugging Face:
 To set up the environment and explore the project : 
 
 1. **Clone the repository:**
-   ```bash
-    !git clone https://github.com/your_username/chicken-health-behavior-multimodal.git
-    !cd chicken-health-behavior-multimodal
-    ```
+   ```
+   !git clone https://github.com/your_username/chicken-health-behavior-multimodal.git
+   !cd chicken-health-behavior-multimodal
+   ```
 2. **Install Dependencies:**
    * It is highly recommended to use this on `Google Collabs` or `virtual environment` (`conda` or `venv`).
    * Install necessary libraries. Refer to the `requirements.txt`
-   ```bash
+   ```
    !pip install -r requirements.txt
    ```
 3. **Start Exploring**
@@ -85,8 +85,14 @@ To set up the environment and explore the project :
 
 *This output is from `notebooks/CHBD_Vocalization_Analysis.ipynb` of the test data prediction*
 
-![Output of test data](https://github.com/user-attachments/assets/79a848b9-6186-4024-8810-6dff93eb4a4f)
+```
+Predicted class: Healthy
 
+Class Probabilities:
+Healthy: 77.60%
+Noise: 0.79%
+Unhealthy: 21.60%
+```
 
 *To see the video results, you can refer to this Google Drive link : https://drive.google.com/drive/folders/1Z4ciNB1MprOILPV8Zn3VsEefEeuA2120?usp=sharing*
 
