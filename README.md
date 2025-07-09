@@ -47,7 +47,24 @@ All data and model weights are publicly available on Hugging Face:
   * **Chicken Object Detection Yolov11s:** [`https://huggingface.co/IceKhoffi/chicken-object-detection-yolov11s`](https://huggingface.co/IceKhoffi/chicken-object-detection-yolov11s)
   * **Chicken Vocalization Classifier:** [`https://huggingface.co/IceKhoffi/chicken-vocalization-classifier`](https://huggingface.co/IceKhoffi/chicken-vocalization-classifier)
 
-## Getting Started
+## Getting Started (**Python 3.11.13**)
+
+To set up the environment and explore the project : 
+
+1. **Clone the repository:**
+   ```bash
+    !git clone https://github.com/your_username/chicken-health-behavior-multimodal.git
+    !cd chicken-health-behavior-multimodal
+    ```
+2. **Install Dependencies:**
+   * It is highly recommended to use this on `Google Collabs` or `virtual environment` (`conda` or `venv`).
+   * Install necessary libraries. Refer to the `requirements.txt`
+   ```bash
+   !pip install -r requirements.txt
+   ```
+3. **Start Exploring**
+   * You can navigate to the `/notebooks` directory. Each subfolder contains Jupyter Notebooks (`.ipynb`) guiding you through data preparation, model training, and evaluation for both vision and vocalization components.
+   * Or if you want just to run the model you can refer to `main.ipynb` where it would run throught the chicken detection model to the vocalization model.
 
 ## Results
 *(This section showcases key outputs and demonstrations from our models. For detailed code, full examples, and more analysis, please refer to the respective Jupyter notebooks in the `notebooks/` directory.)*
@@ -71,7 +88,7 @@ All data and model weights are publicly available on Hugging Face:
 ![Output of test data](https://github.com/user-attachments/assets/79a848b9-6186-4024-8810-6dff93eb4a4f)
 
 
-*To see the video results you can refer to this google drive link : https://drive.google.com/drive/folders/1Z4ciNB1MprOILPV8Zn3VsEefEeuA2120?usp=sharing*
+*To see the video results, you can refer to this Google Drive link : https://drive.google.com/drive/folders/1Z4ciNB1MprOILPV8Zn3VsEefEeuA2120?usp=sharing*
 
 
 ## Acknowledgements
