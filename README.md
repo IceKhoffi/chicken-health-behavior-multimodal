@@ -53,7 +53,7 @@ To set up the environment and explore the project :
 
 1. **Clone the repository:**
    ```
-   !git clone https://github.com/your_username/chicken-health-behavior-multimodal.git
+   !git clone https://github.com/IceKhoffi/chicken-health-behavior-multimodal.git
    !cd chicken-health-behavior-multimodal
    ```
 2. **Install Dependencies:**
